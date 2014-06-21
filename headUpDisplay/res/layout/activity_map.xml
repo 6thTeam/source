@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout         
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_weight="1"
+     	android:padding="1dip" >
+     </RelativeLayout>
+     <LinearLayout
+        android:id="@+id/listlinear"
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="120dip">
+    	
+    	<ListView
+	    	android:id="@+id/searchlist"
+	    	android:layout_width="0dip"
+	    	android:layout_weight="6"
+	    	android:layout_height="match_parent"
+	    	android:listSelector="#0054ff"
+	    	android:background="@android:color/white"
+	    	android:padding="5dp" />
+    	<LinearLayout
+        	android:orientation="vertical"
+    		android:layout_width="0dip"
+    		android:layout_weight="1"
+    		android:layout_height="match_parent"
+    		android:background="@android:color/white">
+    		<Button
+       			android:id="@+id/confirm"
+        		android:layout_width="match_parent"
+        		android:layout_height="60dip"
+        		android:onClick="confirm_onClick"
+        		android:text="확인" />
+    		<Button
+       			android:id="@+id/cancel"
+        		android:layout_width="match_parent"
+        		android:layout_height="60dip"
+        		android:onClick="cancel_onClick"
+        		android:text="취소" />
+    	</LinearLayout>
+    	
+    	
+    </LinearLayout>
+</LinearLayout>

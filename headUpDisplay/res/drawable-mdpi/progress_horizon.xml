@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+android:id/background">
+		<shape>
+			<corners
+				android:radius="5.0dip" />
+			<gradient
+				android:startColor="#ffffff"
+				android:endColor="#ffffff"
+				android:angle="270.0"
+				android:centerY="0.75"
+				android:centerColor="#ffffff" />
+		</shape>
+	</item>
+	<!--		android:drawable="@drawable/img_playbar_lv0" -->
+	<item
+		android:id="@+android:id/secondaryProgress">
+		<clip>
+			<shape>
+				<corners
+					android:radius="5.0dip" />
+				<gradient
+					android:startColor="#bebebe"
+					android:endColor="#bebebe"
+					android:angle="270.0"
+					android:centerY="0.75"
+					android:centerColor="#bebebe" />
+			</shape>
+		</clip>
+	</item>
+	<!--		android:drawable="@drawable/img_playbar_lv1" />-->
+	<item
+		android:id="@+android:id/progress">
+		<clip>
+			<shape>
+				<corners
+					android:radius="5.0dip" />
+				<gradient
+					android:startColor="#828282"
+					android:endColor="#828282"
+					android:angle="270.0"
+					android:centerY="0.75"
+					android:centerColor="#828282" />
+			</shape>
+		</clip>
+	</item>
+	<!--		android:drawable="@drawable/img_playbar_lv2" />-->
+</layer-list>

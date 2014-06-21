@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+
+    <RelativeLayout         
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_weight="1"
+     	android:padding="1dip" >
+     </RelativeLayout>
+	<LinearLayout
+        android:id="@+id/listlinear"
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:background="@android:color/white"
+    	android:layout_height="60dip">
+    	
+	    <Button
+	    	android:id="@+id/searchBtn"
+	   		android:layout_width="320dp"
+	    	android:layout_height="match_parent"
+	    	android:onClick="confirm_onClick"
+	    	android:text="길찾기" />
+
+	    <Button
+	    	android:id="@+id/backBtn"
+	    	android:layout_width="320dp"
+	    	android:layout_height="match_parent"
+	    	android:onClick="cancel_onClick"
+	    	android:text="돌아가기" />
+	    
+	    	
+
+    	
+    	
+    </LinearLayout>
+</LinearLayout>
